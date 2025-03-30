@@ -1,16 +1,14 @@
 package com.dande.ex_02_seleniumbasics;
 
-import com.google.j2objc.annotations.Weak;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Testselenium18_March23Task {
+public class Testselenium018_March23Task {
     @Description("Cura Healthcare service login validation")
     @Test
     public void test_selenium18() throws Exception{
