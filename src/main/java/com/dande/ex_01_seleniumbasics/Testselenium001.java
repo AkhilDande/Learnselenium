@@ -9,7 +9,7 @@ public class Testselenium001 {
          public void test_Verify_VWO_login()
         {
         ChromeDriver driver = new ChromeDriver();
-        driver.get("https://app.vwo.com/");
+        driver.get("https://app.vwo.com/");  // Used to Navigate to URL
         System.out.println(driver.getTitle());
 
         }
