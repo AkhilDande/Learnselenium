@@ -5,11 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Testselenium017_Project1 {
+public class Testselenium017_MiniProject1 {
     @Description("Verify that Error message is displaying when invalid Email and password is submitted")
     @Test
     public void test_selenium17() throws Exception{
